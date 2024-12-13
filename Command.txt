@@ -16,3 +16,15 @@ I have used these following commands in order to do it
 git add .gitignore
 git add Command.txt
 git commit -m "I removed the file called Command.txt from .gitignore and added to the repository"
+
+
+I opened the file MyFile.txt and insert the following line at the end
+CP 390: Software Development and Deployment
+
+Then I added the file to repository and committed it
+git add MyFile.txt
+git commit -m "Update MyFile.txt with course name and code."
+
+A Brief reflection:	 
+I learned how to manage files, use Git effectively, and document processes systematically.
+This improved my understanding of Git workflows and version control best practices.
