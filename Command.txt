@@ -10,3 +10,9 @@ git add Info/InfoFile1 Info/InfoFile2
 git commit -m "Added Info subfolder and files."
 
 git config user.name "AmitKumar_INFO"
+To add the Command.txt to version control we have to remove this file from .gitignore
+After removing this file from .gitignore I added this file and commit to make available in the version control
+I have used these following commands in order to do it
+git add .gitignore
+git add Command.txt
+git commit -m "I removed the file called Command.txt from .gitignore and added to the repository"
