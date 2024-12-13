@@ -1,0 +1,12 @@
+I Created file .gitignore
+And I added this file into git ignore by using the following commands:
+git add .gitignore
+git commit -m "Exclude Command.txt using .gitignore."
+
+
+mkdir Info
+touch Info/InfoFile1 Info/InfoFile2
+git add Info/InfoFile1 Info/InfoFile2
+git commit -m "Added Info subfolder and files."
+
+git config user.name "AmitKumar_INFO"
